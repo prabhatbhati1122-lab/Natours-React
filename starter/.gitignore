@@ -1,0 +1,9 @@
+node_modules
+config.env
+.env
+*.log
+.DS_Store
+
+# photos uploaded while the app runs (the seed images are .jpg, they stay in git)
+public/img/users/*.jpeg
+public/img/tours/*.jpeg

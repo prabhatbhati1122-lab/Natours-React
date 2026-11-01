@@ -1,0 +1,27 @@
+export default function Footer() {
+  return (
+    <footer className="footer">
+      <div className="footer__logo">
+        <img src="/img/logo-green.png" alt="Natours logo" />
+      </div>
+      <ul className="footer__nav">
+        <li>
+          <a href="#">About us</a>
+        </li>
+        <li>
+          <a href="#">Download App</a>
+        </li>
+        <li>
+          <a href="#">Become a guide</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Contacts</a>
+        </li>
+      </ul>
+      <p className="footer__copyright">&copy; by Prabhat Bhati</p>
+    </footer>
+  );
+}
